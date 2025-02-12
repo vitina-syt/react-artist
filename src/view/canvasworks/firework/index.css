@@ -1,0 +1,12 @@
+.home-root {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  background: #000;
+  overflow: hidden;
+}
+.home-root canvas {
+  filter: blur(0.5px);
+}
